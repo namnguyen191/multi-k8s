@@ -3,14 +3,14 @@
   "containerDefinitions": [
     {
       "name": "client",
-      "image": "namnguyen191/multi-client",
+      "image": "namng191/multi-client",
       "hostname": "client",
       "essential": false,
       "memory": 128
     },
     {
       "name": "server",
-      "image": "namnguyen191/multi-server",
+      "image": "namng191/multi-server",
       "hostname": "api",
       "essential": false,
       "memory": 128
