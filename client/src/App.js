@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="App">
         <header>
-          <h1 className="App-title">Fib Calculator</h1>
+          <h1 className="App-title">Fib Calculator version: Kubernetes!</h1>
           <Link to="/" style={{ marginRight: '20px' }}>
             Home
           </Link>
