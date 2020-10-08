@@ -5,6 +5,7 @@ docker build -t namnguyen191/multi-worker:latest -t namnguyen191/multi-worker:$S
 docker push namnguyen191/multi-client:latest
 docker push namnguyen191/multi-server:latest
 docker push namnguyen191/multi-worker:latest
+#TEST
 
 docker push namnguyen191/multi-client:$SHA
 docker push namnguyen191/multi-server:$SHA
