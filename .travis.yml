@@ -18,6 +18,7 @@ before_install:
   - docker build -t namnguyen191/react-test -f ./client/Dockerfile.dev ./client
 script:
   - docker run -e CI=true namnguyen191/react-test npm run test
+  #  TRIGGER REDEPLOYMENT
 
 deploy:
   provider: script
